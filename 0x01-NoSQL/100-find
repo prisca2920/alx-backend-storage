@@ -1,0 +1,2 @@
+// lists all docs that starts a specific way
+db.school.find({name: {$regex: '^Holberton'}})
